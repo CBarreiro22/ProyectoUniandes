@@ -25,7 +25,6 @@ export class VehiculoListComponent implements OnInit {
         }
         if(vehiculos.marca === "Chevrolet"){
           this.totalChevrolet = this.totalChevrolet +1
-          console.log(vehiculos.marca);
 
         }
         if(vehiculos.marca === "Nissan"){

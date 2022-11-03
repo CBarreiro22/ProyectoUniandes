@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 .header1{
   margin: 0 98px
 }
@@ -10,4 +11,10 @@
 }
 .dividor{
   margin: 0 0 20.46px 0
+}
+p{
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 65px;
+  margin-bottom: 24px;
 }
