@@ -1,3 +1,27 @@
-<p>
-  vehiculo-list works!
-</p>
+<div class="d-flex flex-row mb-3 tables">
+  <table class="table" >
+    <thead>
+      <tr class="color" >
+        <th scope="col">#</th>
+        <th scope="col">Marca</th>
+        <th scope="col">Linea</th>
+        <th scope="col">Modelo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let vehiculo of vehiculos">
+        <th scope="row">{{vehiculo.id}}</th>
+        <td class="text-wrap">{{vehiculo.marca}}</td>
+        <td>{{vehiculo.linea}}</td>
+        <td>{{vehiculo.modelo}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="information">
+  <p>
+    Total Renault: {{totalRenault}}<br>
+    Total Chevrolett: {{totalChevrolet}}<br>
+    Total Nissan: {{totalNissan}}<br>
+  </p>
+</div>

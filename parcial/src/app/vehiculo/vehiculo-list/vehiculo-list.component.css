@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.color {
+  background-color: #333A40;
+  color: white;
+}
+.tables {
+  width: 50%;
+  margin-left: 98px;
+}
+.information{
+  margin-left: 98px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
