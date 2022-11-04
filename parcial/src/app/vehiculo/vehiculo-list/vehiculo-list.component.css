@@ -3,6 +3,12 @@
   background-color: #333A40;
   color: white;
 }
+.table{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+}
 .tables {
   width: 50%;
   margin-left: 98px;
